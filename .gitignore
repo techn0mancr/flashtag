@@ -1,0 +1,10 @@
+# Project-specific
+decks/
+secrets.py
+
+# CircuitPython-specific
+__pycache__/
+boot_out.txt
+
+# VSCode-specific
+.vscode/
