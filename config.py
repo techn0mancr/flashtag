@@ -7,11 +7,11 @@ Written by techn0mancr.
 # Custom library imports
 from helper import path_join
 
+# Constant definitions
 BASE_DIR = {
     "deck": path_join("decks"),
     "font": path_join("fonts")
 }
-
 FONT = {
     "small": {
         "line_spacing": 0.75,
@@ -32,7 +32,6 @@ FONT = {
         "text_wrap": 30
     }
 }
-
 POSITION_VECTOR = {
     "center": (0.5, 0.5)
 }

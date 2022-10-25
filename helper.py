@@ -36,7 +36,8 @@ def path_join(path, *paths):
 
 def shuffle(lst):
     """
-    In-place Fisher-Yates shuffle with Durstenfeld's optimisations from
+    Shuffles a list of items in-place using the Fisher-Yates shuffle
+    with Durstenfeld's optimisations from
     https://en.m.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle.
     Reimplementation of random.shuffle().
 

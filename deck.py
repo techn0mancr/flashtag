@@ -78,6 +78,7 @@ class Deck:
         return self.__description
 
     """ Class methods """
+
     @staticmethod
     def parse_decks(base_path="."):
         """
